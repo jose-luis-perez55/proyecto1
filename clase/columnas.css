@@ -1,0 +1,71 @@
+/* afecta a todos los col  */
+
+[class*="col-"]
+{
+float: left;
+border: 3px solid rgb(56, 37, 37);
+padding: 10px;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+.fila
+{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: table;
+
+}
+
+.col-12
+{
+    width: 100%;
+}
+.col-11
+{
+    width: 91.6666667%;
+}
+.col-10
+{
+    width: 83.333%;
+}
+.col-9
+{
+    width: 75%;
+}
+.col-8
+{
+    width: 66.66666%;
+}
+.col-7
+{
+    width: 58.333333%;
+}
+.col-6
+{
+    width: 50%;
+}
+.col-5
+{
+    width: 41.666%;
+}
+.col-4
+{
+    width: 33.3333%;
+}
+.col-3
+{
+    width: 25%;
+}
+.col-2
+{
+    width: 16.6666%;
+}
+.col-1
+{
+    width: 8.3333%;
+}
