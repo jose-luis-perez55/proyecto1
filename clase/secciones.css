@@ -25,3 +25,7 @@ header center#icono3
 {
     background: red;
 }
+nav .col-lg-1
+{
+    margin: 20px;
+}
