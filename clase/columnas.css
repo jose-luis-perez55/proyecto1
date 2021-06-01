@@ -1,15 +1,25 @@
-/* afecta a todos los col  */
 
+*{
+    margin: 0;
+    padding: 0;
+}
+/* afecta a todos los col  */
 [class*="col-"]
 {
 float: left;
-border: 3px solid rgb(56, 37, 37);
+/* border: 3px solid rgb(56, 37, 37); */
 padding: 10px;
 }
 
 *
 {
     box-sizing: border-box;
+}
+.container{
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: 100%;
 }
 .fila
 {
@@ -70,6 +80,10 @@ padding: 10px;
 {
     width: 8.3333%;
 }
+.col-lg-0
+{
+    display: none;
+}
 }
 /* pantalla medium o tablet md */
 @media (max-width:1199px) and (min-width:992px){
@@ -122,6 +136,10 @@ padding: 10px;
 {
     width: 8.3333%;
 }
+.col-md-0
+{
+    display: none;
+}
 }
 @media(max-width:991px) and (min-width:768px){
 .col-sm-12
@@ -171,6 +189,10 @@ padding: 10px;
 .col-sm-1
 {
     width: 8.3333%;
+}
+.col-sm-0
+{
+    display: none;
 }
 }
 /* Pantalla telefono */
@@ -222,5 +244,9 @@ padding: 10px;
 .col-xs-1
 {
     width: 8.3333%;
+}
+.col-xs-0
+{
+    display: none;
 }
 }

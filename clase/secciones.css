@@ -5,27 +5,89 @@ header #logo
     text-align: center;
     line-height: 60px;
 }
-header center
+header jose p
 {
     width: 42px;
     line-height: 42px;
     border-radius: 100%;
     background: #ccc;
     color: white;
+    text-align: center;
+    /* margin: 0 auto; */
 }
-header center#icono1
+header jose#icono1 p
 {
     background: blue;
 }
-header center#icono2
+header jose#icono2 p
 {
     background: green;
 }
-header center#icono3
+header jose#icono3 p
 {
     background: red;
 }
 nav .col-lg-1
 {
-    margin: 20px;
+    margin: 20px 48px;
+    background: black;
+    color: cornsilk;
+    
 }
+/* seccion 2 nav */
+
+nav ul li
+{
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+nav ul li a {
+    display: block; 
+    background-color: darkblue;
+   color: white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 48px; 
+    text-decoration: none;
+
+}
+nav ul li a:hover
+{
+    background: rgb(106, 140, 195);
+}
+
+nav ul li a:active
+{
+    background: rgb(71, 69, 77);
+}
+/* section-------3-------imagen- */
+#seccion3 
+{
+
+    padding: 20px;
+    text-align: center;
+}
+#seccion3 img
+{
+    border-radius: 15%;
+    width: 200px;
+    height: 170px;
+    padding: 10px;
+}
+#seccion4 #gran
+{
+    float: left;
+    margin: 0 10px;
+}
+#seccion3 h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding: 10px;
+}
+
+#seccion3 p
+{
+    padding: 10px;
+}
+/* ---------seccion 4------------------------------ */
