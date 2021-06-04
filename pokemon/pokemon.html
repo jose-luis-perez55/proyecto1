@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poquemon</title>
+    <link rel="stylesheet" href="columnas.css">
+    <link rel="stylesheet" href="poquemon.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="fila">
+            <div id="izq" class="col-lg-2 col-md-2 col-sm-1 col-xs-0"></div>
+            <div id="princi" class="col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                <div class="fila" >
+                  <div class="col-xs-6"> 
+                       <h2 id="nombre"></h2>
+                
+                 </div>
+                    <div class="col-xs-3" id="numero">
+                             <p id="identificador"></p>
+                    </div>
+                    <div class="col-xs-3" id="boton">
+                        <button id="mas" ><span>+</span></button>
+                        <button id="menos" onclick="mens"><span>-</span></button>
+                    
+                   </div>
+                </div>
+                <div class="fila">
+                    <div id="central">
+                        <div  style="height: 280px;" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="frente"></div>
+                        <div  style="height: 280px;" class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="trasera"></div>
+                    </div>
+                </div>
+                <div class="fila" id="botonera">
+                    
+                </div>
+            </div>
+            <div id="der" class="col-lg-2 col-md-2 col-sm-1 col-xs-0"></div>
+        </div>
+    </div>
+    
+    <script src="poquemon.js"></script>
+</body>
+
+</html>

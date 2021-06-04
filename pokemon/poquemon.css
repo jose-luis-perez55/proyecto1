@@ -1,0 +1,40 @@
+#frente, #trasera
+{
+    /* background-color: cadetblue; */
+    text-align: center;
+    background-image: url("../img/codigo.webp");
+}
+h2
+{
+    
+    color: rgb(227, 224, 240);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+#boton
+{
+    text-align: right;
+   
+}
+#numero
+{
+    text-align: end;
+    color: rgb(224, 203, 203);
+    font-size: 50px;
+  
+}
+#princi
+{
+    background-color: black;
+}
+#menos, #mas 
+{
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+}
+span
+{
+    color: red;
+    font-size: 50px;
+}
