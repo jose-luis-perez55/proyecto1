@@ -7,7 +7,6 @@
 [class*="col-"]
 {
 float: left;
-/* border: 3px solid rgb(56, 37, 37); */
 padding: 10px;
 }
 
@@ -32,7 +31,7 @@ padding: 10px;
 }
 /* Pantalla grande */
 @media(min-width:1200px){
-    #seccion4 article p  img{width: 50%;}
+  
 .col-lg-12
 {
     width: 100%;
@@ -88,7 +87,7 @@ padding: 10px;
 }
 /* pantalla medium o tablet md */
 @media (max-width:1199px) and (min-width:992px){
-    #seccion4 article p  img{width: 50%;}
+   
 .col-md-12
 {
     width: 100%;
@@ -143,8 +142,7 @@ padding: 10px;
 }
 }
 @media(max-width:991px) and (min-width:768px){
-    #seccion4 article p  img{width: 100%;
-        margin-bottom: 20px;}
+   
 .col-sm-12
 {
     width: 100%;
@@ -200,8 +198,7 @@ padding: 10px;
 }
 /* Pantalla telefono */
 @media(max-width:767px){
-    #seccion4 article p  img{width: 100%;
-        margin-bottom: 20px;}
+   
 .col-xs-12
 {
     width: 100%;
