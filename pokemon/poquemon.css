@@ -21,6 +21,7 @@ h2
     text-align: end;
     color: rgb(235, 26, 26);
     font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
   
 }
 #princi
@@ -44,7 +45,7 @@ span
 		color: rgb(209, 233, 235);
 		position: relative;
 		animation: josua .8s infinite ;
-        width: 10%;
+        width: 20%;
         animation-delay: 5s;
 
 }
@@ -62,5 +63,10 @@ span
       50%{transform: rotate(0deg);}
      0%{transform: rotate(0deg);} 
      
+}
+#flecha
+{
+    color: blue;
+    width: 50px;
 }
 
