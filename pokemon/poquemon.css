@@ -69,4 +69,16 @@ span
     color: blue;
     width: 50px;
 }
+#peso
+{
+    color: forestgreen;
+    padding: 10px;
+    
+}
+#altura
+{
+    color: rgb(214, 175, 19);
+    padding: 10px;
+    
+}
 
