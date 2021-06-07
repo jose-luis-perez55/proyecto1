@@ -2,7 +2,7 @@
 {
     /* background-color: cadetblue; */
     text-align: center;
-    background-image: url("../img/mundo.webp");
+    background-image: url("../imagenes/mundo.webp");
 }
 h2
 {
@@ -27,6 +27,7 @@ h2
 #princi
 {
     background-color: black;
+   
 }
 #menos, #mas 
 {
@@ -73,12 +74,16 @@ span
 {
     color: forestgreen;
     padding: 10px;
+    width: 20%;;
+    float: left;
+    padding-right: 321px;
     
 }
 #altura
 {
     color: rgb(214, 175, 19);
     padding: 10px;
+    width: 20%;;
     
 }
 

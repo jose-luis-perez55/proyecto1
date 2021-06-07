@@ -8,6 +8,8 @@ mens.addEventListener('click', menos)
 mas.addEventListener("click", suma)
 
 
+
+
 // restar contador
 
 function menos()
@@ -56,28 +58,6 @@ function menos()
     
 
 }
-
-var url ='https://pokeapi.co/api/v2/move/14/';
-fetch(url)
-.then(response => response.json())
-.then(data =>
-    {   
-
-    console.log(data)
-//     // imagen frente
-//     let peso = document.getElementById('peso');
-//     peso.innerHTML=`
-     
-//         Púlsa + 🢅 <img  width="250px"  src="${data.meta.aliment}" >
-// `
-    
-    
-
-        
-    })
-// .catch( err => console.log(err))
-
-
 
 
 
