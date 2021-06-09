@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Monoton&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+:root
+{
+    --color1: rgb(53,85,138);
+    --color2: rgb(6, 32, 75);
+    --color3: rgb(245, 208, 87);
+    --color4: rgb(87, 233, 135);
+    --color5: rgb(228, 26, 19);
+    --bordes: 2px solid var(--color5) ;
+    --fuente1: 'Monoton';
+    --fuente2: 'Monofett';
+    --fuente3: 'ZCOOL Kuaile';
+    --fuente4:  'Viaoda Libre', cursive ;
+
+}
+h1
+{
+    font-family: var(--fuente1);
+}
+h2
+{
+    font-family: var(--fuente4);
+}
+p
+{
+    font-family: var(--fuente3);
+}
+th
+{
+    background-color: var(--color1);
+    color: var(--color2);
+    border: var(--bordes);
+}
+td
+{
+    background-color: var(--color3);
+    color: var(--color2); 
+    border: var(--bordes);  
+}
+table
+{
+    border: var(--bordes);
+    border-collapse: collapse;
+}
