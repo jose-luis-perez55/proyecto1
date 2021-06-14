@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estiloscalc.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="wrapper">
+            <div class="col">
+                <div class="expresion" id="ex">
+                   
+                </div>
+            </div>
+            <div class="col">
+                <div class="resultado" id="resu">
+                  
+                </div>
+            </div>
+            <div class="col">
+                <button onclick= add(1)>1</button>
+                <button onclick= add(2)>2</button>
+                <button onclick= add(3)>3</button>
+                <button id="r" onclick= add("-")>-</button>
+            </div>
+            <div class="col">
+                <button onclick= add(4)>4</button>
+                <button onclick= add(5)>5</button>
+                <button onclick= add(6)>6</button>
+                <button id="r" onclick= add('+')>+</button>
+            </div>
+            <div class="col">
+                <button onclick= add(7)>7</button>
+                <button onclick= add(8)>8</button>
+                <button onclick= add(9)>9</button>
+                <button id="r" onclick= add('*')>*</button>
+            </div>
+            <div class="col">
+                <button id="r" onclick= clr()>CLR</button>
+                <button onclick= add(0)>0</button>
+                <button id="r" onclick= resultado('=')>=</button>
+                <button id="r" onclick= add('/')>/</button>
+            </div>
+            <div class="col">
+                <button id="r" onclick= add(%)>%</button>
+                <button id="r"onclick= cos()>cos</button>
+                <button id="r" onclick= tan()>tan</button>
+                <button id="r" onclick= tan() >raiz</button>
+            </div>
+        </div>
+    </div>
+    <script src="codigo.js"></script>
+</body>
+</html>
