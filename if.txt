@@ -1,0 +1,64 @@
+Artículos RGPD
+
+Siguiendo las directrices del Reglamento General Europeo en materia de Protección de Datos de carácter personal (RGPD EU) 2016/679
+ y la Ley Orgánica de Protección de Datos de carácter personal y Garantía de Derechos Digitales (LOPD-GDD) 3/2018 de 5 de diciembre, 
+les informamos que: 
+
+
+else{
+	?>
+	<div class="...">
+		<p>
+		Si desea ver el mapa de GoogleMaps debe aceptar el uso de cookies de terceros a tráves del botón uso de cookies
+		</p>
+		</div>
+	<?
+		}
+?>
+                      
+
+               <figcaption class='figure-caption'>
+                        </figcaption><br><br>
+
+
+<?
+if(isset($_COOKIE['ac_t']) && $_COOKIE['ac_t'] == '1'){
+?>
+<iframe></iframe>
+<?
+}else{
+?>
+	<div class="...">
+		<p>
+			Si desea ver el mapa de GoogleMaps debe aceptar el uso de cookies de terceros a tráves del botón uso de cookies
+		</p>
+	</div>
+<?
+}
+?>
+
+col-lg-12 text-center border rounded py-5 my-5
+
+
+Para enviar el formulario debe aceptar las cookies de terceros para verificar que no es un robot mediante Google Captcha
+Para ver el tour virtual debe aceptar las cookies de terceros a través del botón 'USO DE COOKIES'
+
+<? include ("aviso_cookies.php"); ?>
+
+ <?=$tipos_cookies?>
+".$tipos_cookies."
+
+	A continuación, se detallan las cookies utilizadas por este sitio web junto con la finalidad y duración de cada una de ellas:
+					<br><br>
+          .vcook table{    float: left;
+		width: 100%;
+		position: inherit;	
+		}
+				".$tipos_cookies."
+
+
+col-md-12 text-center my-5 py-5
+position: fixed;
+bottom: 0;
+z-index: 1000;
+
